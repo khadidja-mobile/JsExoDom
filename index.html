@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,41 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Styles</title>
 </head>
+
 <body>
+    <div id="exo1">
+        <h3>Exercie 1 </h3>
+        <p id="parag1">Loremipsumdolorsitamet,consecteturadipisicingelit,
+            seddoeiusmodtemporincididuntutlaboreetdoloremagnaaliqua.Utenimadminimveniam,
+            quisnostrudexercitationullamcolaborisnisiutaliquipexeacommodoconsequat.
+        </p>
 
-    <p id="parag1">Loremipsumdolorsitamet,consecteturadipisicingelit,
-        seddoeiusmodtemporincididuntutlaboreetdoloremagnaaliqua.Utenimadminimveniam,
-        quisnostrudexercitationullamcolaborisnisiutaliquipexeacommodoconsequat.
-    </p>
-
-    <button onclick="changer_style()">ChangerStyle</button>
+        <button onclick="changer_style()">Changer Style</button>
+    </div>
+    <hr>
+    <div id="exo2">
+        <h3>Exercie 2 </h3>
+        <p>
+            <a id="w3r" type="text/html" hreflang="en‐us" rel="nofollow" target="_self"
+                href="https://www.w3resource.com/">w3 resource</a>
+        </p>
+        <button onclick="getAttributes()">Click here to get attributes value</button>
+    </div>
 
     <hr>
-<div id="exo2"> 
-    <p>
-        <a id="w3r" type="text/html" 
-        hreflang="en‐us" rel="nofollow" target="_self" href="https://www.w3resource.com/">w3 resource</a>
-    </p>
-    <button onclick="getAttributes()">Click here to get attributes value</button>
-</div> 
 
-<hr>
-
-<div id="exo3">
-    <h3>Returnfirstandlastnamefromaform ‐w3resource</h3>
-    <form id="form1" onsubmit="getFormvalue()">
-        Firstname:<input type="text" name="fname" value="David"><br>
-        Lastname:<input type="text" name="lname" value="Beckham"><br>
-        <input type="submit" value="Submit">
-    </form>
-</div>
+    <div id="exo3">
+        <h3>Return first and last name from a form ‐w3 resource</h3>
+        <form id="form1" onsubmit="getFormvalue()">
+            Firstname:<input type="text" name="fname" value="David"><br>
+            Lastname:<input type="text" name="lname" value="Beckham"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 
 
-<hr>
+    <hr>
     <script src="assets/js/file.js"></script>
 </body>
+
 </html>

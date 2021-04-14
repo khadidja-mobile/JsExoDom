@@ -13,9 +13,32 @@
     margin: -5px;
 }
 
+.p5{
+    padding: -5px;
+}
+
 .active{
     color: #fff;
     background: #000;
     border: 1px dotted #000;
     margin: -5px;
+}
+
+h3{
+    color: #FFFFFF;
+    background: #e92ed0;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #fbfd8d, 0 0 30px #e9ff28, 0 0 40px #daf82d, 0 0 55px #eefc2b, 0 0 75px #f0ff18;
+}
+
+/* Common button styles */
+button{
+	width: 250px;
+    height: 80px;
+	display: block;
+	margin: 1em;	padding: 1em 2em;
+	border: 5px solid dotted;	background: #0d68f1;
+	
+}
+button:hover{
+    background: #037c18;
 }

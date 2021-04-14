@@ -10,7 +10,7 @@ var list = p.classList;
 }
 // ou */
 
-function changer_style(){ 
+function changer_style() {
     p.className += "active";
 }
 
@@ -23,8 +23,8 @@ var rel = document.querySelector("a").getAttribute('rel');
 var target = document.querySelector("a").getAttribute('target');
 //var newP = document.createElement("p");
 
-function getAttributes(){
-    newDiv.innerHTML += "<p>Les attributs href, hreflang, rel, target sont :  </p>" + href + ' | ' + hreflang  + ' | ' + rel  + ' | ' + target;
+function getAttributes() {
+    newDiv.innerHTML += "<p>Les attributs href, hreflang, rel, target sont :  </p>" + href + ' | ' + hreflang + ' | ' + rel + ' | ' + target;
 }
 
 // exo3
@@ -43,7 +43,7 @@ var nom = document.getElementsByTagName("input")[1].value;
     //return false;
 }*/
 
-function getFormvalue(){
+function getFormvalue() {
     document.open();
     document.write("Nom et prénom récupérés du formulaire : " + nom + ' ' + prenom);
     document.close();
