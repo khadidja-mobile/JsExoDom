@@ -1,0 +1,21 @@
+.blanc{
+    color: #fff;
+}
+.bg{
+    background: #000;
+}
+
+.border{
+    border: 1px dotted #000;
+}
+
+.m5{
+    margin: -5px;
+}
+
+.active{
+    color: #fff;
+    background: #000;
+    border: 1px dotted #000;
+    margin: -5px;
+}
